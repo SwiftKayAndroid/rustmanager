@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Rust Manager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Nav drawer-->
+    <string name="home">Home</string>
+    <string name="genetics">Genetics</string>
+    <string name="blueprints">Blueprints</string>
+    <string name="electrical">Electrical</string>
+    <string name="raid_calculator">Raid Calculator</string>
+    <string name="crafting">Crafting</string>
+
+    <!--Genetics page-->
+    <string name="add_gene_sample">+ Add gene sample</string>
+    <string name="calculate">Calculate</string>
+</resources>

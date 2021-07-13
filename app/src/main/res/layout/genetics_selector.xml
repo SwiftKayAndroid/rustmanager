@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/genePrintout"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/first"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/second"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/third"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/fourth"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/fifth"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/sixth"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveGene"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:layout_above="@+id/close"
+        android:text="Add"
+        android:textColor="@color/rust_grey" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Done"
+        android:textColor="@color/rust_grey" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/genesLayout"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:text="Clear"
+        android:textColor="@color/rust_grey"/>
+
+    <LinearLayout
+        android:id="@+id/genesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/saveGene"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/x"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="X"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/w"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="W"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/h"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="H"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/y"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Y"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/g"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="G"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

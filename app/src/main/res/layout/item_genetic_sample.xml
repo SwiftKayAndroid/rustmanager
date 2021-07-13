@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1dp"
+    android:paddingBottom="1dp"
+    android:paddingTop="1dp"
+    >
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginStart="1dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/third"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginStart="1dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/fourth"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginStart="1dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/fifth"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginStart="1dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/sixth"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginStart="1dp"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

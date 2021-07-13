@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navHome"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+        <!--<a href='https://dryicons.com/free-icons/dna-vector'> Icon by Dryicons </a>-->
+        <item
+            android:id="@+id/navGenetics"
+            android:icon="@drawable/dna"
+            android:title="Genetics" />
+        <item
+            android:id="@+id/navBlueprints"
+            android:icon="@drawable/sitemap"
+            android:title="Blueprints" />
+        <item
+            android:id="@+id/navElectrical"
+            android:icon="@drawable/flash"
+            android:title="Electrical" />
+        <item
+            android:id="@+id/navRaidCalculator"
+            android:icon="@drawable/bomb"
+            android:title="Raid Calculator" />
+        <item
+            android:id="@+id/navCrafting"
+            android:icon="@drawable/wrench"
+            android:title="Crafting" />
+        <item
+            android:id="@+id/navMonuments"
+            android:icon="@drawable/biohazard"
+            android:title="Monuments" />
+    </group>
+</menu>
