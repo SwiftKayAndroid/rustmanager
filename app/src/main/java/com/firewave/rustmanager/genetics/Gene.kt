@@ -1,6 +1,15 @@
 package com.firewave.rustmanager.genetics
 
-open class Gene(val name:String, var weight:Float) {
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "gene")
+open class Gene(
+    @ColumnInfo(name = "geneName") val name:String,
+    @ColumnInfo(name = "weight") var weight:Float,
+    @PrimaryKey(autoGenerate = true) val id:Int = 0
+    ) {
     public fun compare(other:Gene) : Gene {
         if (other.weight > this.weight) {
             return other

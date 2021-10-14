@@ -1,5 +1,7 @@
 package com.firewave.rustmanager.genetics
 
+import com.firewave.rustmanager.server.Server
+
 object CrossbreedCalculations {
     public fun getCrossbreadResults(samples:ArrayList<GeneticSample>) : ArrayList<CrossbreedDiagram> {
         val diagrams = ArrayList<CrossbreedDiagram>()
